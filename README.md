@@ -32,21 +32,21 @@ Currently only Chrome web browser is supported. In the future
 
 There are several possible messages:
 
-##### Found 0 scripts!
+#### Found 0 scripts!
 The plugin found none ServiceNow javascript scripts. If there is any, please contact me.
 
-##### Found more than 1 script!
+#### Found more than 1 script!
 The plugin found more than one field with possible javascript code. List of found possibilities is described as table. Clicking on any record will copy it to the clipboard.
 
-##### Successfully copied
+#### Successfully copied
 The javascript code is in the clipboard.
 
 ## Q&A
 
-##### When the plugin is enabled?
+#### When the plugin is enabled?
 
 The plugin is working only when URL of the page is ServiceNow instance: *://*.service-now.com/*
 
-##### How the plugin works?
+#### How the plugin works?
 
 It is searching for textareas within the DOM of the page and all DOMs inside iframes. The textareas should contain name like "*.*" and it can't be empty.
