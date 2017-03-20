@@ -27,10 +27,13 @@ Currently only Chrome web browser is supported. In the future
 ## How to use it
 
 * Go to any page where ServiceNow script should exist
-* Click on ServiceNow icon on the right (![ServiceNow](https://github.com/einstein13/snow-copy/blob/master/icons/SNOW_Icon_small.png))
+* Click on ServiceNow icon on the right (![ServiceNow](https://github.com/einstein13/snow-copy/blob/master/icons/SNOW_Icon.png =32x32))
 * Click "COPY" and read message below
 
 There are several possible messages:
+
+#### No correct response - please try again
+The page isn't loaded in 100% and there is no connection between plugin and the content of the page. Try again in a few seconds - it should work.
 
 #### Found 0 scripts!
 The plugin found none ServiceNow javascript scripts. If there is any, please contact me.
