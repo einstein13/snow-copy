@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+
+    "name": "ServiceNow copy extension",
+    "description": "This extension copy any ServiceNow javascripts found on instance pages",
+    "version": "0.1",
+
+    "page_action": {
+        "default_icon": "icons/SNOW_Icon.png",
+        "default_popup": "popup/popup.html",
+        "default_title": "SNOW copy!"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "declarativeContent",
+        "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.service-now.com/*", "file:///C:/*"],
+            "js": ["get_description.js"]
+        }
+     ]
+}
