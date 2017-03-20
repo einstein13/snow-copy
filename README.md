@@ -27,7 +27,7 @@ Currently only Chrome web browser is supported. In the future
 ## How to use it
 
 * Go to any page where ServiceNow script should exist
-* Click on ServiceNow icon on the right (![ServiceNow](https://github.com/einstein13/snow-copy/blob/master/icons/SNOW_Icon.png){:height="32px" width="32px"})
+* Click on ServiceNow icon on the right (![ServiceNow](https://github.com/einstein13/snow-copy/blob/master/icons/SNOW_Icon_small.png))
 * Click "COPY" and read message below
 
 There are several possible messages:
