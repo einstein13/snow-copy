@@ -15,7 +15,7 @@ You can also clone git repository: https://github.com/einstein13/snow-copy.git
 
 ## Installing with your web browser
 
-Currently only Chrome web browser is supported. In the future 
+Currently only Chrome web browser is supported. In the future firefox will be also available to run this plugin.
 
 ### Chrome
 
@@ -53,3 +53,9 @@ The plugin is working only when URL of the page is ServiceNow instance: *://*.se
 #### How the plugin works?
 
 It is searching for textareas within the DOM of the page and all DOMs inside iframes. The textareas should contain name like "*.*" and it can't be empty.
+
+## To do list
+
+* Firefox integration
+* Saving the file into the disk
+* Adding header part for SublimeText ServiceNow plugin (https://community.servicenow.com/community/develop/blog/2014/11/20/servicenow-plugin-for-sublimeeditor-2)
